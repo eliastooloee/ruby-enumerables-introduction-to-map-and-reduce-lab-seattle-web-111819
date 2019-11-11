@@ -8,7 +8,12 @@ def map_to_no_change(array)
 end
 
 def map_to_double(array)
-  array.map { |element| element*2 }
+  i=0
+  array=[]
+  while i<array.length do
+    array.push(array[i] *-1)
+end
+return array
 end
 
 def map_to_square(array)
