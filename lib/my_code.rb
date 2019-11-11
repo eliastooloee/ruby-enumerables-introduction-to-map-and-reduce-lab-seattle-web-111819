@@ -1,9 +1,9 @@
 # My Code here....
-def map_to_negativize(array)
+def map_to_negativize(source_array)
   i=0
   array=[]
-  while i<array.length do
-    array.push(array[i] *-1)
+  while i<source_array.length do
+    array.push(source_array[i] *-1)
   end
   return array
 end
