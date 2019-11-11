@@ -5,6 +5,8 @@ def map_to_negativize(source_array)
   while i<source_array.length do
     array.push(source_array[i] *-1)
   end
+  return array
+end  
 
 #def map_to_negativize(array)
 #array.map { |element| element* -1 }
