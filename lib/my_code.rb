@@ -1,7 +1,16 @@
 # My Code here....
 def map_to_negativize(array)
-  array.map { |element| element* -1 }
+  i=0
+  array=[]
+  while i<array.length do
+    array.push(array[i] *-1)
+  end
+  return array
 end
+
+#def map_to_negativize(array)
+#array.map { |element| element* -1 }
+#end
 
 def map_to_no_change(array)
   array
