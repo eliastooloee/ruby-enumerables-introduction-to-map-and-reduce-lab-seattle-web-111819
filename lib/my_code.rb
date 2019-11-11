@@ -29,7 +29,6 @@ def map_to_double(source_array)
     i=+1
   end
 return array
-end
 
 def map_to_square(array)
   array.map { |element| element**2 }
