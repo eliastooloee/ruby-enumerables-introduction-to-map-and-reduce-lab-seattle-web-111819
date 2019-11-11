@@ -12,6 +12,7 @@ def map_to_double(array)
   array=[]
   while i<array.length do
     array.push(array[i] *2)
+    i+=1
 end
 return array
 end
