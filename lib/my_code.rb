@@ -27,10 +27,10 @@ def map_to_double(source_array)
   while i<source_array.length do
     array.push(source_array[i] *2)
     i=+1
-    return array
   end
+  return array
+end
   
-
 def map_to_square(array)
   array.map { |element| element**2 }
 end
