@@ -19,10 +19,6 @@ def map_to_no_change(array)
   array
 end
 
-#def map_to_double(array)
- # array.map { |element| element*2 }
-#end
-
 def map_to_double(source_array)
   i=0
   array=[]
@@ -32,6 +28,12 @@ def map_to_double(source_array)
 end
 return array
 end
+
+# Same as above, this code works, but the code below is a better way to do it. 
+
+#def map_to_double(array)
+ # array.map { |element| element*2 }
+#end
   
 def map_to_square(array)
   array.map { |element| element**2 }
