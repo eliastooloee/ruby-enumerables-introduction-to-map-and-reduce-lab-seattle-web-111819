@@ -38,6 +38,7 @@ end
 def map_to_square(array)
   array.map { |element| element**2 }
 end
+# Went with the efficient method here.
 
 def reduce_to_total(array, starting_point=0)
   array.reduce(starting_point) { |sum, num| sum+num}
