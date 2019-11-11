@@ -40,9 +40,18 @@ def map_to_square(array)
 end
 # Went with the efficient method here.
 
-def reduce_to_total(array, starting_point=0)
-  array.reduce(starting_point) { |sum, num| sum+num}
+def reduce_to_total(source_array, starting_point=0)
+  i=0
+  while i<source_array.count
+  starting_point += source_array[i]
+    i +=1
+  end
+  return starting_point
 end
+# Went with the slow way here, fast way is below.
+#def reduce_to_total
+  #array.reduce(starting_point) { |sum, num| sum+num}
+#end
 
 def reduce_to_all_true(array)
   array.reduce { |beTrue, beFalse| beTrue && beFalse}
