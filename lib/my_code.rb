@@ -9,6 +9,8 @@ def map_to_negativize(source_array)
   return array
 end  
 
+# Not really sure what to do here. The above code works but is clunky and pointless. The code below achieves the same goal with less lines and is easier to read. Just generally better in every way.
+
 #def map_to_negativize(array)
 #array.map { |element| element* -1 }
 #end
