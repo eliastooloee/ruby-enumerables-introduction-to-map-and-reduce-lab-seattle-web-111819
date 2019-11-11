@@ -7,11 +7,11 @@ def map_to_no_change(array)
   array
 end
 
-def map_to_double(array)
+def map_to_double(source_array)
   i=0
   array=[]
-  while i<array.length do
-    array.push(array[i] *2)
+  while i<source_array.length do
+    array.push(source_array[i] *2)
     i+=1
 end
 return array
